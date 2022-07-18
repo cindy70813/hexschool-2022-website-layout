@@ -1,0 +1,141 @@
+
+.fontMandrin {
+    font-family:'PingFang TC';
+}
+.fontEng {
+    font-family:'SF Pro Text';
+}
+.fz24 {
+    font-size: 24px;
+}
+.fw300 {
+    font-weight: 300;
+}
+.fwM {
+    font-weight: medium;
+}
+.fw600 {
+    font-weight: 600;
+}
+.container {
+    padding-left: 360px;
+    padding-right: 360px;
+}
+.header {
+    font-size: 80px;
+    line-height: 95px;
+    margin-bottom: 24px;
+}
+.hr2px {
+    border:2px solid #000000;
+    margin-bottom: 48px;
+}
+.photo {
+    width: 324px;
+    height: 324px;
+    margin-bottom: 48px;
+    display: block;
+}
+.brandLogo {
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+.mediaIcon {
+    width: 40px;
+    height: 40px;
+}
+
+.dFlex {
+    display: flex;
+}
+.dColumn {
+    flex-direction: column;
+}
+.dFlex > h2 {
+    font-size: 32px;
+    line-height: 48px;
+    margin-bottom: 8px;
+    margin-right: 16px;
+}
+.paragraphContent {
+    line-height: 36px;
+}
+.expDescription {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.jcc {
+    justify-content: center;
+}
+.tac {
+    text-align: center;
+}
+.aic {
+    align-items: center;
+}
+.textRed {
+    color: #A00404;
+}
+.textWhite {
+    color: white;
+}
+.bgGray {
+    background:#415165;
+}
+
+.w642 {
+    width: 642px;
+}
+.w996 {
+    width:996px;
+}
+
+.pt24 {
+    padding-top: 24px;
+}
+.pt40 {
+    padding-top: 40px;
+}
+.pt64 {
+    padding-top: 64px;
+}
+.mb8 {
+    margin-bottom: 8px;
+}
+.mb16 {
+    margin-bottom: 16px;
+}
+.mb24 {
+    margin-bottom: 24px;
+}
+.mb40 {
+    margin-bottom: 40px;
+}
+.mb64 {
+    margin-bottom: 64px;
+}
+.mb70 {
+    margin-bottom: 70px;
+}
+.mb80 {
+    margin-bottom: 80px;
+}
+
+.mr24 {
+    margin-right: 24px;
+}
+
+.verticalLine {
+    border-left: 1px solid #96a9c4;
+    height: 300px;
+    margin-right: 23px;
+}
+
+.verticalLine654 {
+    border-left: 1px solid #96a9c4;
+    height: 654px;
+    margin-right: 24px;
+}
