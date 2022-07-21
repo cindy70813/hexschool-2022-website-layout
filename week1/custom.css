@@ -1,21 +1,33 @@
-
+body {
+    font-weight: 300;
+}
 .fontMandrin {
-    font-family:'PingFang TC';
+    font-family:"PingFang TC";
 }
 .fontEng {
-    font-family:'SF Pro Text';
+    font-family:"SF Pro Text";
 }
 .fz24 {
     font-size: 24px;
 }
-.fw300 {
-    font-weight: 300;
+div > h2 {
+    font-family:"PingFang TC";
+    font-weight: 500 !important;  /*medium*/
+    line-height: 48px;
 }
-.fwM {
-    font-weight: 500;
+div > h3 {
+    font-family:"SF Pro Text";
+    font-weight: 600 !important;
+    line-height: 36px;
 }
-.fw600 {
-    font-weight: 600;
+div.mb16 {
+    border-bottom: 1px solid #000;
+}
+div.mb24 {
+    border-bottom: 1px solid #fff;
+}
+.fwMedium {
+    font-weight: 500 !important;
 }
 .container {
     padding-left: 360px;
@@ -24,11 +36,11 @@
 .header {
     font-size: 80px;
     line-height: 95px;
-    margin-bottom: 24px;
-}
-.hr2px {
-    border:2px solid #000000;
+    font-weight: 400; /*normal*/
+    padding-top: 40px;
+    padding-bottom: 24px;
     margin-bottom: 48px;
+    border-bottom: 2px solid #000;
 }
 .photo {
     width: 324px;
@@ -48,9 +60,6 @@
 
 .dFlex {
     display: flex;
-}
-.dColumn {
-    flex-direction: column;
 }
 .dFlex > h2 {
     font-size: 32px;
@@ -93,11 +102,11 @@
     width:996px;
 }
 
+.pb40 {
+    padding-bottom: 40px;
+}
 .pt24 {
     padding-top: 24px;
-}
-.pt40 {
-    padding-top: 40px;
 }
 .pt64 {
     padding-top: 64px;
@@ -130,12 +139,11 @@
 
 .verticalLine {
     border-left: 1px solid #96a9c4;
-    height: 300px;
-    margin-right: 23px;
+    padding-left: 23px;
 }
 
-.verticalLine654 {
+.verticalLine2 {
     border-left: 1px solid #96a9c4;
-    height: 654px;
-    margin-right: 24px;
+    padding-left: 24px;
+    margin-left: 24px;
 }
