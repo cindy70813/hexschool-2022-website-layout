@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../reset.css">
+</head>
+<body>
+    <div class="row">
+        <div class="leftColumn">
+            <img src="https://fakeimg.pl/96" alt="">
+            <img src="https://fakeimg.pl/96" alt="">
+        </div>
+        <div class="mediumColumn">
+            <p class="title">
+                Lorem ipsum dolor sit 
+            </p>
+            <p class="content">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus aliquid aspernatur, facere
+            </p>
+            <p class="title">
+                Lorem ipsum dolor sit 
+            </p>
+            <p class="content">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus aliquid aspernatur, facere
+            </p>
+        </div>
+        <div class="column">
+            <img src="https://fakeimg.pl/216" alt="">
+        </div>
+    </div>
+    <div class="footer">
+        <p class="content">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus aliquid aspernatur, facere  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus aliquid aspernatur, facere
+        </p>
+    </div>
+</body>
+</html>
+<style>
+    body {
+        max-width: 640px;
+    }
+    .row {
+        display: flex;
+    }
+    .footer {
+        height: 120px;
+    }
+    .leftColumn {
+        width:min-content;
+        margin-right: 20px;
+    }
+    .leftColumn > img {
+        margin-bottom: 24px;
+    }
+    .mediumColumn {
+        margin-right: 20px;
+    }
+    .mediumColumn > p:nth-child(2) {
+        margin-bottom: 24px;
+    }
+    .title {
+        font-size: 20px;
+        line-height: 1.2;
+    }
+    .content {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+</style>

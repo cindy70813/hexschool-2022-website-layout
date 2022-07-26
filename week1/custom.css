@@ -1,24 +1,18 @@
 body {
     font-weight: 300;
-}
-.fontMandrin {
-    font-family:"PingFang TC";
-}
-.fontEng {
-    font-family:"SF Pro Text";
-}
-.fz24 {
+    font-family: "SF Pro Text","PingFang TC";
     font-size: 24px;
 }
-div > h2 {
-    font-family:"PingFang TC";
+h2 {
     font-weight: 500 !important;  /*medium*/
     line-height: 48px;
+    font-size: 32px;
+    margin-bottom: 8px;
 }
-div > h3 {
-    font-family:"SF Pro Text";
+h2 > span {
     font-weight: 600 !important;
     line-height: 36px;
+    font-size: 24px;
 }
 div.mb16 {
     border-bottom: 1px solid #000;
@@ -60,12 +54,6 @@ div.mb24 {
 
 .dFlex {
     display: flex;
-}
-.dFlex > h2 {
-    font-size: 32px;
-    line-height: 48px;
-    margin-bottom: 8px;
-    margin-right: 16px;
 }
 .paragraphContent {
     line-height: 36px;
