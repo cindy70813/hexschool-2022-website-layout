@@ -2,6 +2,7 @@ body {
     font-weight: 300;
     font-family: "SF Pro Text","PingFang TC";
     font-size: 24px;
+    line-height: 36px;
 }
 h2 {
     font-weight: 500 !important;  /*medium*/
@@ -11,21 +12,35 @@ h2 {
 }
 h2 > span {
     font-weight: 600 !important;
-    line-height: 36px;
     font-size: 24px;
 }
-div.mb16 {
+.title {
     border-bottom: 1px solid #000;
+    margin-bottom: 16px;
 }
-div.mb24 {
+.skill {
+    text-align: center;
     border-bottom: 1px solid #fff;
+    width:996px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact {
+    border-bottom: 1px solid #fff;
+    width: 1200px;
+    padding-top: 24px;
+    margin-bottom: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 .fwMedium {
     font-weight: 500 !important;
 }
 .container {
-    padding-left: 360px;
-    padding-right: 360px;
+    width: 1200px;
+    margin: 0 auto;
 }
 .header {
     font-size: 80px;
@@ -52,26 +67,20 @@ div.mb24 {
     height: 40px;
 }
 
-.dFlex {
-    display: flex;
-}
-.paragraphContent {
-    line-height: 36px;
-}
 .expDescription {
     font-size: 20px;
     font-weight: 300;
     line-height: 30px;
 }
 
+.dFlex {
+    display: flex;
+}
 .jcc {
     justify-content: center;
 }
 .tac {
     text-align: center;
-}
-.aic {
-    align-items: center;
 }
 .textRed {
     color: #A00404;
@@ -85,9 +94,6 @@ div.mb24 {
 
 .w642 {
     width: 642px;
-}
-.w996 {
-    width:996px;
 }
 
 .pb40 {
