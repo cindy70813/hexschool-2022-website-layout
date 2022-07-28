@@ -1,6 +1,11 @@
+*, *::before, *::after{
+    box-sizing:border-box;
+}
+
 body {
     font-weight: 300;
-    font-family: "SF Pro Text","PingFang TC";
+    font-family: "SF Pro Text",-apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
     font-size: 24px;
     line-height: 36px;
 }
@@ -14,18 +19,22 @@ h2 > span {
     font-weight: 600 !important;
     font-size: 24px;
 }
+h3 {
+    font-weight: 500 !important;  /*medium*/
+}
 .title {
     border-bottom: 1px solid #000;
     margin-bottom: 16px;
 }
 .skill {
     text-align: center;
-    border-bottom: 1px solid #fff;
     width:996px;
     margin-left: auto;
     margin-right: auto;
 }
-
+.skill > h2 {
+    border-bottom: 1px solid #fff;
+}
 .contact {
     border-bottom: 1px solid #fff;
     width: 1200px;
@@ -79,8 +88,11 @@ h2 > span {
 .jcc {
     justify-content: center;
 }
-.tac {
+.contactInfo {
     text-align: center;
+}
+.contactInfo > ul > li {
+    margin-bottom: 16px;
 }
 .textRed {
     color: #A00404;
@@ -131,9 +143,11 @@ h2 > span {
     margin-right: 24px;
 }
 
-.verticalLine {
+.skillList {
     border-left: 1px solid #96a9c4;
     padding-left: 23px;
+    display: inline-block;
+    text-align-last: left;
 }
 
 .verticalLine2 {
