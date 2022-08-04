@@ -44,8 +44,9 @@ p.shorter {
     height:958px;
     color: #fff;
 }
-.bgJoanne >ul> li> a {
-    margin-right: 0.8rem;
+.spaceBetween {
+    display: flex;
+    justify-content: space-between;
 }
 
 .about {
