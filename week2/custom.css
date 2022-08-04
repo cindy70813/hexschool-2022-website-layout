@@ -39,6 +39,7 @@ p.shorter {
     justify-content: center;
     align-items: center;
     background-image: url(images/banner.png);
+    background-size: contain;
     background-repeat: no-repeat;
     height:958px;
     color: #fff;
@@ -116,7 +117,7 @@ p.shorter {
     color: #fff
 }
 
-.contact > h2,ul>li:nth-child(1) {
+.contact > h2,.contact > ul>li:nth-child(1) {
     margin-bottom: 0.8rem;
 }
 /* size: 
