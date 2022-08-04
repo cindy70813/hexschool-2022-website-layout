@@ -18,7 +18,6 @@ h1 {
     font-size: 4rem;
     line-height: 5.3rem;
     font-weight: 900;
-    font-style: italic;
     margin-bottom: 1.6rem;
 }
 h2 {
@@ -47,9 +46,6 @@ p.shorter {
 .bgJoanne >ul> li> a {
     margin-right: 0.8rem;
 }
-.bgJoanne > h2 {
-    margin-top: 2.8rem;
-}
 
 .about {
     margin-top: 2.8rem;
@@ -59,8 +55,6 @@ p.shorter {
     margin-bottom: 2rem;
 }
 .about > img {
-    width: 384px;
-    height: 384px;
     margin-bottom: 1rem;
 }
 .line {
@@ -109,7 +103,6 @@ p.shorter {
 }
 .center {
     width: 1225px;
-    margin: 0 auto;
 }
 .photoSet {
     margin-right: 1.2rem;
@@ -129,26 +122,26 @@ p.shorter {
 /* size: 
 4 - .2 - mb1
 8 - .4 - mb2
-12 - .6 - mb3
-16 - .8 - mb4
-20 - 1rem - mb5
+12 - .6
+16 - .8
+20 - 1rem
 22 - 1.1
-24 - 1.2 - mb6
-28 - 1.4 - mb7
+24 - 1.2 - mb3
+28 - 1.4
 30 -1.5
-32 - 1.6 - mb8
+32 - 1.6 - mb4
 36 - 1.8
-40 - 2 - mb9
+40 - 2 - mb5
 42 - 2.1
-48 - 2.4 - mb10
-56 - 2.8 - mb11
-64 - 3.2 - mb12
-68 - 3.4 - mb13
+48 - 2.4
+56 - 2.8 - mb6
+64 - 3.2
+68 - 3.4 - mb7
 80 - 4
 84 - 4.2
 106 - 5.3
-144 - 7.2 - mb14
-160 - 8 - mb15
+144 - 7.2 - mb8
+160 - 8 - mb9
 
 以 20 為主
 */
@@ -160,24 +153,24 @@ p.shorter {
 .mb2 {
     margin-bottom: 0.4rem;
 }
-.mb6 {
+.mb3 {
     margin-bottom: 1.2rem;
 }
-.mb8 {
+.mb4 {
     margin-bottom: 1.6rem;
 }
-.mb9 {
+.mb5 {
     margin-bottom: 2rem;
 }
-.mb11 {
+.mb6 {
     margin-bottom: 2.8rem !important;
 }
-.mb13 {
+.mb7 {
     margin-bottom: 3.4rem;
 }
-.mb14 {
+.mb8 {
     margin-bottom: 7.2rem;
 }
-.pb15 {
+.pb9 {
     padding-bottom: 8rem !important;
 }
