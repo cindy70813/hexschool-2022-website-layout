@@ -93,8 +93,10 @@ p.shorter {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 1248px;
+    margin: 0 auto;
 }
-.photoZone > img {
+.photoZone > li {
     margin-bottom: 2rem;
     margin-right: 1.2rem;
 }
