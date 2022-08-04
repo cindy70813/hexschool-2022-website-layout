@@ -75,10 +75,8 @@ p.shorter {
 .line > li ::before {
     width: 1.1rem;
     height: 1.1rem;
-    background: #891818 0% 0% no-repeat padding-box;
-    content: '....';
+    content: '●';
     color:#891818;
-    border-radius: 1rem 1rem;
     margin-right: 0.8rem;
 }
 .myBrand {
